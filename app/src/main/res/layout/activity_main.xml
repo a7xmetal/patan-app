@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6f3ff"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/tu"
+        android:layout_width="48dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tulogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+        android:text="    Patan Campus"
+        android:textColor="#730505"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pmc"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginBottom="2dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tu"
+        app:srcCompat="@drawable/pmc" />
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="402dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#e6f3ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99A19A9A"
+                android:gravity="center_horizontal"
+                android:text="latest course"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="203dp"
+                    android:layout_height="147dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="textview"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="203dp"
+                    android:layout_height="147dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BCB7B7"
+                android:gravity="center"
+                android:text="Latest news"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    tools:srcCompat="@tools:sample/avatars" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="10dp"
+        android:background="#e6f3ff"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_home_24"
+
+            android:text=""
+            android:textSize="8sp"
+            app:backgroundTint="#004280" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_menu_book_24"
+            android:text=""
+            android:textSize="12sp"
+            app:backgroundTint="#004280" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_baseline_article_24"
+            android:text=""
+            android:textSize="12sp"
+            app:backgroundTint="#004280" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/baseline_phone_24"
+            android:text=""
+            android:textSize="12sp"
+            app:backgroundTint="#004280" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/baseline_info_24"
+            android:text=""
+            android:textSize="8sp"
+            app:backgroundTint="#004280" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
