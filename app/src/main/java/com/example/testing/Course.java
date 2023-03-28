@@ -101,6 +101,29 @@ public class Course extends AppCompatActivity {
                                         case 4:
                                             Toast.makeText(Course.this, "Fifth List Item is clicked", Toast.LENGTH_SHORT).show();
                                             break;
+
+                                        case 5:
+                                            Toast.makeText(Course.this, "Fifth List Item is clicked", Toast.LENGTH_SHORT).show();
+                                            break;
+
+                                        case 6:
+                                            Toast.makeText(Course.this, "Fifth List Item is clicked", Toast.LENGTH_SHORT).show();
+                                            break;
+                                        case 7:
+                                            Toast.makeText(Course.this, "Fifth List Item is clicked", Toast.LENGTH_SHORT).show();
+                                            break;
+                                        case 8:
+                                            Toast.makeText(Course.this, "Fifth List Item is clicked", Toast.LENGTH_SHORT).show();
+                                            break;
+                                        case 9:
+                                            Toast.makeText(Course.this, "Fifth List Item is clicked", Toast.LENGTH_SHORT).show();
+                                            break;
+                                        case 10:
+                                            Toast.makeText(Course.this, "Fifth List Item is clicked", Toast.LENGTH_SHORT).show();
+                                            break;
+                                        case 11:
+                                            Toast.makeText(Course.this, "Fifth List Item is clicked", Toast.LENGTH_SHORT).show();
+                                            break;
                                     }
                                 }
 

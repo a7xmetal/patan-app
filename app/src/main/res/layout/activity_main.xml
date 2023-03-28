@@ -50,22 +50,15 @@
         app:srcCompat="@drawable/pmc" />
 
 
-
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="402dp"
-        android:layout_height="500dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
+        android:layout_height="481dp"
         android:background="#e6f3ff"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/pmc">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -164,13 +157,17 @@
     </ScrollView>
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="275dp"
         android:layout_height="38dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="18dp"
         android:background="#e6f3ff"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent">
 
         <Button

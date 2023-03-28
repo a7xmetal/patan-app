@@ -9,15 +9,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="652dp"
         android:orientation="vertical">
-
-        <ListView
-            android:id="@+id/mylist"
-            android:layout_width="match_parent"
-            android:layout_height="500dp"
-            android:divider="@color/black"
-            android:dividerHeight="2dp" />
 
     </LinearLayout>
 
@@ -92,5 +85,12 @@
             android:textSize="8sp"
             app:backgroundTint="#004280" />
     </LinearLayout>
+
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="598dp"
+        android:divider="@color/black"
+        android:dividerHeight="2dp" />
 
 </RelativeLayout>
